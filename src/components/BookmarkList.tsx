@@ -33,7 +33,7 @@ const BookmarkList: React.FC<BookmarkListType> = ({ bookmarks }) => {
                 onClick={() =>
                   dispatch({ type: "REMOVE_BOOKMARK", payload: id })
                 }
-              >
+               className="remove--btn">
                 x
               </button>
             </div>

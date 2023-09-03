@@ -25,7 +25,7 @@ const BookmarkForm = () => {
     });
   };
 
-  const handleAddBookmark = (url: string, title: string): void => {
+  const handleAddBookmark = (title: string, url: string): void => {
     if (!url || !title) return;
 
     const newBookmark = {
